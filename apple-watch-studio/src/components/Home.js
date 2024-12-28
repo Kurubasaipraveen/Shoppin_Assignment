@@ -11,7 +11,12 @@ function Home() {
       {/* Header */}
       <header className="header">
         <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/apple-watch-design-studio-logo?wid=236&hei=52&fmt=jpeg&qlt=90&.v=1566849941844" alt="Apple Logo" className="logo" />
-        
+        <select className="select">
+          <option>Apple Watch Series 10</option>
+          <option>Apple Watch Hermes Series 10</option>
+          <option>Apple Watch  SE</option>
+        </select>
+        <button className="button">save</button>
       </header>
 
       <main className="main">
